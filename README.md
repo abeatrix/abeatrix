@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/JqgJT9N/beatrix.png" alt="beatrix" border="0">
+<img align="center" src="https://i.ibb.co/JqgJT9N/beatrix.png" alt="beatrix" border="0">
 
 - 🔭 I’m currently working on Django
 - 🌱 I’m currently learning Python, Django, React, bash...
