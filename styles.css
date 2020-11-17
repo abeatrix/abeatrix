@@ -143,6 +143,37 @@ article:last-child {
   margin: 5% auto;
 }
 
+/* ABOUT */
+.about-container {
+  display: flex;
+  justify-content: flex-start;
+  font-weight:300;
+  width: 100%;
+  text-align: center;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-evenly;
+  font-weight:300;
+  width: 100%;
+  text-align: left;
+}
+
+.about-me{
+  flex-direction: row;
+  text-align: center;
+}
+
+.introduction {
+  margin-left: 5%;
+  padding: 2%;
+}
+
+.about-imgs{
+  width: 80%;
+}
+
 
 /* RESUME */
 .experience-container {
@@ -199,21 +230,3 @@ article:last-child {
 .timeline-item:last-child {
 	border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, transparent) 1 100%;
 }
-
-/* ABOUT */
-.about-container {
-  display: flex;
-  justify-content: flex-start;
-  font-weight:300;
-  width: 100%;
-}
-
-.about-me{
-  flex-direction: row
-}
-
-.introduction {
-  margin-left: 5%;
-  padding: 2%;
-}
-
