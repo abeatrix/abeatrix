@@ -18,9 +18,11 @@ i {
   padding: 15px;
 }
 
-.main-display {
-  display: flex;
-  width: 70%;
+
+.main-display{
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: 70%;
 }
 
 a:link {
@@ -48,7 +50,10 @@ a:active {
   position: sticky;
   top: 5%;
   text-align: center;
+  flex-basis: 25rem;
+  flex-grow: 1;
 }
+
 
 .sidebar-list {
   list-style-type: none;
@@ -141,6 +146,11 @@ article:last-child {
   padding: 5% 0;
   text-align: center;
   margin: 5% auto;
+}
+
+.projects-items {
+  text-align: center;
+  float: center;
 }
 
 /* ABOUT */
