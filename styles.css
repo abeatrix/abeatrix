@@ -9,6 +9,10 @@
   margin: 5%;
 }
 
+i {
+  font-size: 20px;
+}
+
 .main,
 .sidebar {
   padding: 15px;
@@ -197,6 +201,16 @@ article:last-child {
 }
 
 /* ABOUT */
+.about-container {
+  display: flex;
+  justify-content: flex-start;
+  font-weight:300;
+  width: 100%;
+}
+
+.about-me{
+  flex-direction: row
+}
 
 .introduction {
   margin-left: 5%;
