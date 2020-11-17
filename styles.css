@@ -148,6 +148,11 @@ article:last-child {
   margin: 5% auto;
 }
 
+.projects-items {
+  text-align: center;
+  float: center;
+}
+
 /* ABOUT */
 .about-container {
   display: flex;
