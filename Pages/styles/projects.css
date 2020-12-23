@@ -190,6 +190,27 @@
     transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
   }
 
+  .strip__white {
+    color: white;
+    font-weight: bold;
+  }
+
+  .strip__purple {
+    color: #523874;
+    font-weight: bold;
+  }
+
+  .strip__icons {
+    margin-top: 1rem;
+  }
+
+  .strip__small {
+    color: white;
+    font-weight: bold;
+    font-size: .8rem;
+  }
+
+
   .strip__title p{
     display: block;
     margin: 0;
